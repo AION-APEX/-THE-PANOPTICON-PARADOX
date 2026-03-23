@@ -229,3 +229,9 @@ This investigation was executed by the following APEX agent swarm:
 *March 2026*
 
 </div>
+
+## 🎬 Watch the video
+
+<a href="https://www.youtube.com/watch?v=LdX_NqPVZf8">
+  <img src="https://img.youtube.com/vi/LdX_NqPVZf8/maxresdefault.jpg" alt="Watch the video" />
+</a>
