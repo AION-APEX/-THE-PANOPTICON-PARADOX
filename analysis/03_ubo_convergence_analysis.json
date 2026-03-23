@@ -1,0 +1,1029 @@
+{
+  "timestamp": "2026-03-17T03:06:43.795390+00:00",
+  "operation": "Operation Panopticon - UBO Chain Analysis (Phase 2)",
+  "authority": "AlexH (APEX PRIME DIRECTIVE)",
+  "analyst": "ID Data Analyst",
+  "convergence_groups": [
+    {
+      "group_id": "GROUP_001",
+      "name": "Kape Technologies",
+      "primary_ubo": "Teddy Sagi",
+      "ubo_profile": {
+        "name": "Teddy Sagi",
+        "nationality": "Israeli (also Cypriot via golden visa)",
+        "background": "Israeli billionaire, founder of Playtech",
+        "criminal_history": "Convicted of fraud and bribery in 1996 (served 5 months prison)",
+        "offshore_exposure": "Listed in Pandora Papers",
+        "risk_factors": [
+          "Criminal conviction",
+          "Offshore structures",
+          "Multi-jurisdictional citizenship"
+        ]
+      },
+      "vpns": [
+        "ExpressVPN",
+        "CyberGhost VPN",
+        "Private Internet Access (PIA)",
+        "ZenMate VPN"
+      ],
+      "additional_assets": [
+        "Intego (antivirus)",
+        "Webselenese (VPN review publisher - CONFLICT OF INTEREST)"
+      ],
+      "total_market_share_estimate": "~25-30% of consumer VPN market",
+      "risk_score": "CRITICAL",
+      "jurisdictions": {
+        "corporate": [
+          "Israel",
+          "UK (formerly AIM-listed)"
+        ],
+        "operations": [
+          "Cyprus",
+          "Israel",
+          "Germany",
+          "Romania"
+        ],
+        "ubo_citizenship": [
+          "Israel",
+          "Cyprus"
+        ]
+      },
+      "intelligence_concerns": [
+        "Teddy Sagi's criminal background raises ethical concerns about data handling",
+        "Webselenese ownership creates review site conflict of interest",
+        "Israeli jurisdiction raises Five Eyes concerns",
+        "Pandora Papers exposure indicates complex offshore structure"
+      ],
+      "convergence_evidence": [
+        "All VPNs under single UBO (Teddy Sagi via Unik Holdings)",
+        "Shared corporate infrastructure",
+        "Common marketing through Webselenese properties",
+        "Deliberate opacity through private ownership post-2021"
+      ]
+    },
+    {
+      "group_id": "GROUP_002",
+      "name": "NordSec / Nord Security",
+      "primary_ubo": "Tomas Okmanas",
+      "ubo_profile": {
+        "name": "Tomas Okmanas",
+        "nationality": "Lithuanian",
+        "background": "Co-founder and CEO of Nord Security, CEO of Year 2020",
+        "criminal_history": "None identified",
+        "offshore_exposure": "Panama operations jurisdiction",
+        "risk_factors": [
+          "Panama jurisdiction",
+          "Venture capital backing opacity"
+        ]
+      },
+      "vpns": [
+        "NordVPN",
+        "Surfshark"
+      ],
+      "additional_assets": [],
+      "total_market_share_estimate": "~20-25% of consumer VPN market",
+      "risk_score": "MEDIUM",
+      "jurisdictions": {
+        "corporate": [
+          "Netherlands (Amsterdam)",
+          "Lithuania"
+        ],
+        "operations": [
+          "Panama"
+        ],
+        "ubo_citizenship": [
+          "Lithuania"
+        ]
+      },
+      "intelligence_concerns": [
+        "Panama operations jurisdiction provides opacity",
+        "$100M Novator Partners funding - ultimate beneficial owners unclear",
+        "Tesonen venture builder model obscures ownership",
+        "2022 merger with Surfshark consolidated market share"
+      ],
+      "convergence_evidence": [
+        "2022 merger created unified ownership",
+        "Shared Tesonet venture builder infrastructure",
+        "Common $1.6B valuation indicates single controlling entity"
+      ]
+    },
+    {
+      "group_id": "GROUP_003",
+      "name": "Ziff Davis / J2 Global",
+      "primary_ubo": "Public Shareholders (NASDAQ: ZD)",
+      "ubo_profile": {
+        "name": "Various Public Shareholders",
+        "nationality": "Primarily US institutional investors",
+        "background": "Public company with diverse ownership",
+        "criminal_history": "None identified",
+        "risk_factors": [
+          "US jurisdiction",
+          "Public company transparency requirements"
+        ]
+      },
+      "vpns": [
+        "IPVanish",
+        "StrongVPN",
+        "SaferVPN"
+      ],
+      "additional_assets": [
+        "Encrypt.me",
+        "NetProtect",
+        "VIPRE Security Group"
+      ],
+      "total_market_share_estimate": "~10-15% of consumer VPN market",
+      "risk_score": "MEDIUM",
+      "jurisdictions": {
+        "corporate": [
+          "USA (Delaware)"
+        ],
+        "operations": [
+          "USA"
+        ],
+        "ubo_citizenship": [
+          "Various (public company)"
+        ]
+      },
+      "intelligence_concerns": [
+        "US jurisdiction subjects to Five Eyes surveillance",
+        "Historical PE ownership (Great Hill Partners) may retain influence",
+        "Consolidation of multiple VPN brands under single public entity"
+      ],
+      "convergence_evidence": [
+        "Single corporate parent (Ziff Davis)",
+        "Shared infrastructure and operational teams",
+        "Common strategic direction under public ownership"
+      ]
+    },
+    {
+      "group_id": "GROUP_004",
+      "name": "Pango (formerly AnchorFree)",
+      "primary_ubo": "David Gorodyansky / Eugene Malobrodsky",
+      "ubo_profile": {
+        "name": "David Gorodyansky / Eugene Malobrodsky",
+        "nationality": "US/Israeli",
+        "background": "Silicon Valley entrepreneurs",
+        "criminal_history": "None identified",
+        "risk_factors": [
+          "US jurisdiction",
+          "Israeli connections"
+        ]
+      },
+      "vpns": [
+        "Hotspot Shield",
+        "Betternet",
+        "Super VPN"
+      ],
+      "additional_assets": [],
+      "total_market_share_estimate": "~8-12% of consumer VPN market",
+      "risk_score": "HIGH",
+      "jurisdictions": {
+        "corporate": [
+          "USA (Delaware)",
+          "California"
+        ],
+        "operations": [
+          "USA"
+        ],
+        "ubo_citizenship": [
+          "USA",
+          "Israel"
+        ]
+      },
+      "intelligence_concerns": [
+        "Large user base with free VPN model",
+        "Data monetization concerns with freemium model",
+        "Potential for user tracking and profiling",
+        "US jurisdiction subjects to Five Eyes"
+      ],
+      "convergence_evidence": [
+        "Single corporate entity (Pango)",
+        "Shared infrastructure across brands",
+        "Common business model (freemium)"
+      ]
+    },
+    {
+      "group_id": "GROUP_005",
+      "name": "Independent / Founder-Owned",
+      "primary_ubo": "Various Founders",
+      "ubo_profile": {
+        "name": "Individual Founders",
+        "nationality": "Various",
+        "background": "Privacy-focused entrepreneurs",
+        "risk_factors": [
+          "Varies by provider"
+        ]
+      },
+      "vpns": [
+        "ProtonVPN",
+        "Mullvad VPN",
+        "IVPN"
+      ],
+      "additional_assets": [],
+      "total_market_share_estimate": "~5-8% of consumer VPN market",
+      "risk_score": "LOW",
+      "jurisdictions": {
+        "corporate": [
+          "Switzerland",
+          "Sweden",
+          "Gibraltar"
+        ],
+        "operations": [
+          "Switzerland",
+          "Sweden"
+        ],
+        "ubo_citizenship": [
+          "Switzerland",
+          "Sweden"
+        ]
+      },
+      "intelligence_concerns": [
+        "Mullvad: Swedish Nine Eyes jurisdiction",
+        "ProtonVPN: CERN founder connections (theoretical only)",
+        "Generally strong privacy credentials"
+      ],
+      "convergence_evidence": [
+        "No convergence - each is independently owned",
+        "Strong privacy practices",
+        "Regular third-party audits"
+      ]
+    }
+  ],
+  "jurisdictional_heatmap": {
+    "by_vpn": {
+      "ExpressVPN": {
+        "corporate": "Israel/UK",
+        "operations": "British Virgin Islands",
+        "risk_level": "CRITICAL",
+        "five_eyes": false
+      },
+      "CyberGhost VPN": {
+        "corporate": "Israel/UK",
+        "operations": "Romania/Germany",
+        "risk_level": "HIGH",
+        "five_eyes": false
+      },
+      "PIA": {
+        "corporate": "Israel/UK",
+        "operations": "USA",
+        "risk_level": "CRITICAL",
+        "five_eyes": true
+      },
+      "NordVPN": {
+        "corporate": "Netherlands",
+        "operations": "Panama",
+        "risk_level": "MEDIUM",
+        "five_eyes": false
+      },
+      "Surfshark": {
+        "corporate": "Netherlands",
+        "operations": "Panama",
+        "risk_level": "MEDIUM",
+        "five_eyes": false
+      },
+      "ProtonVPN": {
+        "corporate": "Switzerland",
+        "operations": "Switzerland",
+        "risk_level": "LOW",
+        "five_eyes": false
+      },
+      "Mullvad VPN": {
+        "corporate": "Sweden",
+        "operations": "Sweden",
+        "risk_level": "LOW",
+        "five_eyes": false,
+        "nine_eyes": true
+      },
+      "IPVanish": {
+        "corporate": "USA",
+        "operations": "USA",
+        "risk_level": "HIGH",
+        "five_eyes": true
+      },
+      "Windscribe": {
+        "corporate": "Canada",
+        "operations": "Canada",
+        "risk_level": "MEDIUM",
+        "five_eyes": true
+      },
+      "VyprVPN": {
+        "corporate": "Switzerland",
+        "operations": "USA",
+        "risk_level": "MEDIUM",
+        "five_eyes": true
+      },
+      "Hola VPN": {
+        "corporate": "Israel",
+        "operations": "Israel",
+        "risk_level": "CRITICAL",
+        "five_eyes": false
+      },
+      "TunnelBear": {
+        "corporate": "Canada",
+        "operations": "Canada",
+        "risk_level": "MEDIUM",
+        "five_eyes": true
+      },
+      "Hotspot Shield": {
+        "corporate": "USA",
+        "operations": "USA",
+        "risk_level": "HIGH",
+        "five_eyes": true
+      }
+    },
+    "opacity_jurisdictions": {
+      "Panama": {
+        "vpns": [
+          "NordVPN",
+          "Surfshark"
+        ],
+        "risk_factors": [
+          "No corporate registry transparency",
+          "No beneficial ownership disclosure",
+          "Banking secrecy"
+        ]
+      },
+      "Cyprus": {
+        "vpns": [
+          "ExpressVPN (via Sagi structures)"
+        ],
+        "risk_factors": [
+          "EU gateway for Russian capital",
+          "Golden visa program",
+          "Limited disclosure"
+        ]
+      },
+      "British Virgin Islands": {
+        "vpns": [
+          "ExpressVPN"
+        ],
+        "risk_factors": [
+          "Zero corporate tax",
+          "No public registry",
+          "Maximum opacity"
+        ]
+      },
+      "Israel": {
+        "vpns": [
+          "ExpressVPN",
+          "CyberGhost",
+          "Hola VPN"
+        ],
+        "risk_factors": [
+          "Intelligence agency connections",
+          "Military service requirements",
+          "Data sharing agreements"
+        ]
+      }
+    },
+    "five_eyes_mapping": {
+      "five_eyes_members": [
+        "USA",
+        "UK",
+        "Canada",
+        "Australia",
+        "New Zealand"
+      ],
+      "vpns_in_five_eyes": [
+        "PIA",
+        "IPVanish",
+        "Windscribe",
+        "VyprVPN",
+        "TunnelBear",
+        "Hotspot Shield"
+      ],
+      "nine_eyes_additions": [
+        "Sweden",
+        "Netherlands",
+        "France",
+        "Germany",
+        "Norway"
+      ],
+      "vpns_in_nine_eyes": [
+        "Mullvad VPN"
+      ],
+      "fourteen_eyes_additions": [
+        "Belgium",
+        "Italy",
+        "Spain",
+        "Denmark"
+      ],
+      "vpns_outside_intelligence_sharing": [
+        "ProtonVPN (Switzerland)",
+        "NordVPN/Surfshark (Panama operations)"
+      ]
+    }
+  },
+  "intelligence_risk_matrix": {
+    "scoring_methodology": {
+      "factors": [
+        "UBO background (40%)",
+        "Jurisdiction opacity (25%)",
+        "Coercion history (20%)",
+        "Infrastructure transparency (15%)"
+      ],
+      "scale": "CRITICAL > HIGH > MEDIUM > LOW"
+    },
+    "matrix": [
+      {
+        "vpn": "Hola VPN",
+        "overall_score": "CRITICAL",
+        "factors": {
+          "ubo_background": {
+            "score": "CRITICAL",
+            "notes": "Israeli founders, botnet behavior documented"
+          },
+          "jurisdiction_opacity": {
+            "score": "HIGH",
+            "notes": "Israel jurisdiction"
+          },
+          "coercion_history": {
+            "score": "CRITICAL",
+            "notes": "Known to sell user bandwidth, botnet allegations"
+          },
+          "infrastructure_transparency": {
+            "score": "LOW",
+            "notes": "P2P architecture exposes users"
+          }
+        }
+      },
+      {
+        "vpn": "ExpressVPN",
+        "overall_score": "CRITICAL",
+        "factors": {
+          "ubo_background": {
+            "score": "CRITICAL",
+            "notes": "Teddy Sagi - criminal conviction, Pandora Papers"
+          },
+          "jurisdiction_opacity": {
+            "score": "HIGH",
+            "notes": "BVI/Cyprus opacity structures"
+          },
+          "coercion_history": {
+            "score": "MEDIUM",
+            "notes": "No major incidents but covert data seizure risk"
+          },
+          "infrastructure_transparency": {
+            "score": "MEDIUM",
+            "notes": "Audits exist but ownership opacity concerns"
+          }
+        }
+      },
+      {
+        "vpn": "PIA",
+        "overall_score": "CRITICAL",
+        "factors": {
+          "ubo_background": {
+            "score": "CRITICAL",
+            "notes": "Kape/Sagi ownership"
+          },
+          "jurisdiction_opacity": {
+            "score": "CRITICAL",
+            "notes": "US jurisdiction - Five Eyes"
+          },
+          "coercion_history": {
+            "score": "MEDIUM",
+            "notes": "Proven no-logs in court but seizure risk exists"
+          },
+          "infrastructure_transparency": {
+            "score": "MEDIUM",
+            "notes": "Open source but Kape ownership concerns"
+          }
+        }
+      },
+      {
+        "vpn": "CyberGhost VPN",
+        "overall_score": "HIGH",
+        "factors": {
+          "ubo_background": {
+            "score": "HIGH",
+            "notes": "Kape/Sagi ownership"
+          },
+          "jurisdiction_opacity": {
+            "score": "MEDIUM",
+            "notes": "Romania/Germany operations"
+          },
+          "coercion_history": {
+            "score": "LOW",
+            "notes": "No major incidents"
+          },
+          "infrastructure_transparency": {
+            "score": "MEDIUM",
+            "notes": "Audits exist"
+          }
+        }
+      },
+      {
+        "vpn": "Hotspot Shield",
+        "overall_score": "HIGH",
+        "factors": {
+          "ubo_background": {
+            "score": "MEDIUM",
+            "notes": "US founders, Israeli connections"
+          },
+          "jurisdiction_opacity": {
+            "score": "HIGH",
+            "notes": "US Five Eyes jurisdiction"
+          },
+          "coercion_history": {
+            "score": "MEDIUM",
+            "notes": "Some data handling concerns"
+          },
+          "infrastructure_transparency": {
+            "score": "LOW",
+            "notes": "Freemium model raises monetization questions"
+          }
+        }
+      },
+      {
+        "vpn": "IPVanish",
+        "overall_score": "HIGH",
+        "factors": {
+          "ubo_background": {
+            "score": "MEDIUM",
+            "notes": "Public company ownership"
+          },
+          "jurisdiction_opacity": {
+            "score": "CRITICAL",
+            "notes": "US Five Eyes jurisdiction"
+          },
+          "coercion_history": {
+            "score": "HIGH",
+            "notes": "2020 logging incident reported"
+          },
+          "infrastructure_transparency": {
+            "score": "MEDIUM",
+            "notes": "Standard audits"
+          }
+        }
+      },
+      {
+        "vpn": "Windscribe",
+        "overall_score": "MEDIUM",
+        "factors": {
+          "ubo_background": {
+            "score": "LOW",
+            "notes": "Ukrainian-Canadian founders, no major concerns"
+          },
+          "jurisdiction_opacity": {
+            "score": "HIGH",
+            "notes": "Canada Five Eyes jurisdiction"
+          },
+          "coercion_history": {
+            "score": "MEDIUM",
+            "notes": "2021 Ukraine server seizure, security flaw"
+          },
+          "infrastructure_transparency": {
+            "score": "MEDIUM",
+            "notes": "Open source, some audits"
+          }
+        }
+      },
+      {
+        "vpn": "VyprVPN",
+        "overall_score": "MEDIUM",
+        "factors": {
+          "ubo_background": {
+            "score": "LOW",
+            "notes": "US founders, long-standing company"
+          },
+          "jurisdiction_opacity": {
+            "score": "HIGH",
+            "notes": "Swiss corp but US operations - Five Eyes"
+          },
+          "coercion_history": {
+            "score": "LOW",
+            "notes": "No-logs proven in court"
+          },
+          "infrastructure_transparency": {
+            "score": "HIGH",
+            "notes": "Own infrastructure, audited"
+          }
+        }
+      },
+      {
+        "vpn": "TunnelBear",
+        "overall_score": "MEDIUM",
+        "factors": {
+          "ubo_background": {
+            "score": "LOW",
+            "notes": "Canadian founders"
+          },
+          "jurisdiction_opacity": {
+            "score": "HIGH",
+            "notes": "Canada Five Eyes jurisdiction"
+          },
+          "coercion_history": {
+            "score": "LOW",
+            "notes": "No major incidents"
+          },
+          "infrastructure_transparency": {
+            "score": "MEDIUM",
+            "notes": "Audited, McAfee ownership concerns"
+          }
+        }
+      },
+      {
+        "vpn": "NordVPN",
+        "overall_score": "MEDIUM",
+        "factors": {
+          "ubo_background": {
+            "score": "MEDIUM",
+            "notes": "Lithuanian founders, unclear VC structure"
+          },
+          "jurisdiction_opacity": {
+            "score": "MEDIUM",
+            "notes": "Panama operations provide opacity"
+          },
+          "coercion_history": {
+            "score": "MEDIUM",
+            "notes": "2019 server breach, responded well"
+          },
+          "infrastructure_transparency": {
+            "score": "HIGH",
+            "notes": "Regular audits, bug bounty program"
+          }
+        }
+      },
+      {
+        "vpn": "Surfshark",
+        "overall_score": "MEDIUM",
+        "factors": {
+          "ubo_background": {
+            "score": "MEDIUM",
+            "notes": "Merged with Nord, same structure"
+          },
+          "jurisdiction_opacity": {
+            "score": "MEDIUM",
+            "notes": "Panama operations"
+          },
+          "coercion_history": {
+            "score": "LOW",
+            "notes": "No major incidents"
+          },
+          "infrastructure_transparency": {
+            "score": "MEDIUM",
+            "notes": "Standard audits"
+          }
+        }
+      },
+      {
+        "vpn": "ProtonVPN",
+        "overall_score": "LOW",
+        "factors": {
+          "ubo_background": {
+            "score": "LOW",
+            "notes": "CERN scientists, strong privacy credentials"
+          },
+          "jurisdiction_opacity": {
+            "score": "LOW",
+            "notes": "Switzerland - strong privacy laws"
+          },
+          "coercion_history": {
+            "score": "LOW",
+            "notes": "Proven resistance to data requests"
+          },
+          "infrastructure_transparency": {
+            "score": "HIGH",
+            "notes": "Open source, regular audits, warrant canary"
+          }
+        }
+      },
+      {
+        "vpn": "Mullvad VPN",
+        "overall_score": "LOW",
+        "factors": {
+          "ubo_background": {
+            "score": "LOW",
+            "notes": "Swedish founders, privacy-focused"
+          },
+          "jurisdiction_opacity": {
+            "score": "MEDIUM",
+            "notes": "Sweden Nine Eyes but strong resistance"
+          },
+          "coercion_history": {
+            "score": "HIGH",
+            "notes": "Proven raid resistance 2023 - no data available"
+          },
+          "infrastructure_transparency": {
+            "score": "HIGH",
+            "notes": "Open source, no email required, cash payments"
+          }
+        }
+      }
+    ]
+  },
+  "ubo_network_graph": {
+    "nodes": [
+      {
+        "id": "UBO_001",
+        "name": "Teddy Sagi",
+        "type": "person",
+        "nationality": "Israeli/Cypriot",
+        "risk_level": "CRITICAL",
+        "connections": [
+          "ExpressVPN",
+          "CyberGhost",
+          "PIA",
+          "ZenMate",
+          "Kape Technologies",
+          "Unik Holdings",
+          "Playtech"
+        ]
+      },
+      {
+        "id": "UBO_002",
+        "name": "Tomas Okmanas",
+        "type": "person",
+        "nationality": "Lithuanian",
+        "risk_level": "MEDIUM",
+        "connections": [
+          "NordVPN",
+          "Nord Security",
+          "Tesonet"
+        ]
+      },
+      {
+        "id": "UBO_003",
+        "name": "Eimantas Sabaliauskas",
+        "type": "person",
+        "nationality": "Lithuanian",
+        "risk_level": "MEDIUM",
+        "connections": [
+          "NordVPN",
+          "Tesonet",
+          "Surfshark"
+        ]
+      },
+      {
+        "id": "UBO_004",
+        "name": "Andy Yen",
+        "type": "person",
+        "nationality": "Taiwanese-American",
+        "risk_level": "LOW",
+        "connections": [
+          "ProtonVPN",
+          "ProtonMail",
+          "CERN"
+        ]
+      },
+      {
+        "id": "UBO_005",
+        "name": "Daniel Herdin",
+        "type": "person",
+        "nationality": "Swedish",
+        "risk_level": "LOW",
+        "connections": [
+          "Mullvad VPN"
+        ]
+      },
+      {
+        "id": "UBO_006",
+        "name": "Fredrik Bjorn",
+        "type": "person",
+        "nationality": "Swedish",
+        "risk_level": "LOW",
+        "connections": [
+          "Mullvad VPN"
+        ]
+      },
+      {
+        "id": "UBO_007",
+        "name": "Yegor Sak",
+        "type": "person",
+        "nationality": "Ukrainian-Canadian",
+        "risk_level": "MEDIUM",
+        "connections": [
+          "Windscribe"
+        ]
+      },
+      {
+        "id": "UBO_008",
+        "name": "Ofer Vilenski",
+        "type": "person",
+        "nationality": "Israeli",
+        "risk_level": "CRITICAL",
+        "connections": [
+          "Hola VPN",
+          "Bright Data"
+        ]
+      },
+      {
+        "id": "UBO_009",
+        "name": "David Gorodyansky",
+        "type": "person",
+        "nationality": "US/Israeli",
+        "risk_level": "MEDIUM",
+        "connections": [
+          "Hotspot Shield",
+          "Pango",
+          "AnchorFree"
+        ]
+      },
+      {
+        "id": "UBO_010",
+        "name": "Ron Yokubaitis",
+        "type": "person",
+        "nationality": "American",
+        "risk_level": "MEDIUM",
+        "connections": [
+          "VyprVPN",
+          "Golden Frog"
+        ]
+      },
+      {
+        "id": "UBO_011",
+        "name": "Public Shareholders",
+        "type": "collective",
+        "nationality": "Various",
+        "risk_level": "MEDIUM",
+        "connections": [
+          "IPVanish",
+          "StrongVPN",
+          "SaferVPN",
+          "Ziff Davis"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "UBO_001",
+        "target": "ExpressVPN",
+        "relation": "ultimate_beneficial_owner",
+        "strength": "direct"
+      },
+      {
+        "source": "UBO_001",
+        "target": "CyberGhost VPN",
+        "relation": "ultimate_beneficial_owner",
+        "strength": "direct"
+      },
+      {
+        "source": "UBO_001",
+        "target": "PIA",
+        "relation": "ultimate_beneficial_owner",
+        "strength": "direct"
+      },
+      {
+        "source": "UBO_002",
+        "target": "NordVPN",
+        "relation": "co-founder_ceo",
+        "strength": "direct"
+      },
+      {
+        "source": "UBO_002",
+        "target": "Surfshark",
+        "relation": "merged_ownership",
+        "strength": "indirect"
+      },
+      {
+        "source": "UBO_003",
+        "target": "Surfshark",
+        "relation": "co-founder",
+        "strength": "direct"
+      },
+      {
+        "source": "UBO_003",
+        "target": "NordVPN",
+        "relation": "tesonet_infrastructure",
+        "strength": "indirect"
+      },
+      {
+        "source": "UBO_008",
+        "target": "UBO_009",
+        "relation": "israeli_network",
+        "strength": "geographic"
+      },
+      {
+        "source": "UBO_001",
+        "target": "UBO_008",
+        "relation": "israeli_tech_ecosystem",
+        "strength": "geographic"
+      }
+    ],
+    "clusters": [
+      {
+        "cluster_id": "CLUSTER_001",
+        "name": "Israeli Tech Network",
+        "members": [
+          "Teddy Sagi",
+          "Ofer Vilenski",
+          "David Gorodyansky"
+        ],
+        "common_factors": [
+          "Israeli nationality",
+          "Military/intelligence background potential",
+          "Shared investor networks"
+        ]
+      },
+      {
+        "cluster_id": "CLUSTER_002",
+        "name": "Lithuanian Tech Network",
+        "members": [
+          "Tomas Okmanas",
+          "Eimantas Sabaliauskas"
+        ],
+        "common_factors": [
+          "Lithuanian nationality",
+          "Tesonet venture builder",
+          "Shared $1.6B valuation"
+        ]
+      },
+      {
+        "cluster_id": "CLUSTER_003",
+        "name": "Swiss Privacy Advocates",
+        "members": [
+          "Andy Yen",
+          "Jason Stockman",
+          "Wei Sun"
+        ],
+        "common_factors": [
+          "CERN background",
+          "Swiss jurisdiction",
+          "Privacy-first philosophy"
+        ]
+      },
+      {
+        "cluster_id": "CLUSTER_004",
+        "name": "Swedish Privacy Advocates",
+        "members": [
+          "Daniel Herdin",
+          "Fredrik Bjorn"
+        ],
+        "common_factors": [
+          "Swedish jurisdiction",
+          "Minimal data collection",
+          "Strong audit culture"
+        ]
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "priority": "CRITICAL",
+      "recommendation": "Avoid Kape Technologies VPNs",
+      "rationale": "Teddy Sagi's criminal background, Pandora Papers exposure, and Webselenese review site conflict create unacceptable trust risk",
+      "affected_vpns": [
+        "ExpressVPN",
+        "CyberGhost VPN",
+        "PIA",
+        "ZenMate"
+      ]
+    },
+    {
+      "priority": "CRITICAL",
+      "recommendation": "Avoid Hola VPN entirely",
+      "rationale": "Documented botnet behavior, user bandwidth resale, and Israeli intelligence jurisdiction make this highest risk",
+      "affected_vpns": [
+        "Hola VPN"
+      ]
+    },
+    {
+      "priority": "HIGH",
+      "recommendation": "Exercise caution with Five Eyes VPNs",
+      "rationale": "US, UK, Canada, Australia, NZ jurisdictions subject VPNs to intelligence sharing agreements",
+      "affected_vpns": [
+        "IPVanish",
+        "Windscribe",
+        "TunnelBear",
+        "Hotspot Shield",
+        "VyprVPN"
+      ]
+    },
+    {
+      "priority": "MEDIUM",
+      "recommendation": "Monitor NordSec developments",
+      "rationale": "Panama operations jurisdiction and Novator Partners funding opacity require ongoing monitoring",
+      "affected_vpns": [
+        "NordVPN",
+        "Surfshark"
+      ]
+    },
+    {
+      "priority": "RECOMMENDED",
+      "recommendation": "Consider Swiss/Swedish providers for maximum privacy",
+      "rationale": "ProtonVPN and Mullvad demonstrate strongest privacy credentials with independent ownership",
+      "affected_vpns": [
+        "ProtonVPN",
+        "Mullvad VPN"
+      ]
+    },
+    {
+      "priority": "STRATEGIC",
+      "recommendation": "Investigate Webselenese review manipulation",
+      "rationale": "Kape's ownership of VPN review sites creates systematic conflict of interest across industry",
+      "action_required": "Map all Webselenese properties and cross-reference VPN recommendations"
+    }
+  ],
+  "summary": {
+    "total_vpns_analyzed": 16,
+    "convergence_groups_identified": 5,
+    "critical_risk_vpns": 3,
+    "high_risk_vpns": 3,
+    "medium_risk_vpns": 6,
+    "low_risk_vpns": 4,
+    "five_eyes_exposed": 8,
+    "opacity_jurisdictions_used": 4,
+    "market_concentration": "~60-70% controlled by top 3 groups (Kape, NordSec, Ziff Davis)"
+  }
+}

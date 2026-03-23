@@ -1,0 +1,30 @@
+{
+  "operation": "PANOPTICON",
+  "created": "2026-03-17T01:24:00Z",
+  "total_vpns": 58,
+  "vpns": {
+    "A": ["AirVPN", "Astrill VPN", "Atlas VPN", "Avast SecureLine VPN", "AVG Secure VPN", "AzireVPN"],
+    "B": ["B.VPN", "Betternet VPN", "Bitdefender Premium VPN", "BlackVPN", "BolehVPN", "Browsec VPN"],
+    "C": ["CactusVPN", "Celo VPN", "Check Point Remote Access", "Cisco AnyConnect", "Citrix Gateway", "Cloudflare WARP", "Cryptostorm", "CyberGhost VPN"],
+    "E": ["EarthVPN", "ExpressVPN"],
+    "F": ["F-Secure Freedome", "F5 BIG-IP Edge Client", "FastestVPN", "FlashVPN", "FortiClient VPN", "Free VPN Tomato", "FrootVPN"],
+    "G": ["GlobalProtect (Palo Alto)", "Goose VPN"],
+    "H": ["Hide.me", "HideIPVPN", "HMA (HideMyAss)", "Hola VPN", "Hotspot Shield"],
+    "I": ["IbVPN", "IPVanish", "IronSocket", "Ivacy VPN", "IVPN"],
+    "J": ["Juniper Networks / Pulse Secure"],
+    "K": ["Kaspersky VPN Secure Connection"],
+    "L": ["Lantern VPN", "LiquidVPN"],
+    "M": ["McAfee Safe Connect", "Mullvad VPN"],
+    "N": ["NordVPN", "Norton Secure VPN"],
+    "O": ["OctaneVPN", "OpenVPN", "Opera VPN", "OVPN", "OysterVPN"],
+    "P": ["Perfect Privacy", "PrivadoVPN", "Private Internet Access", "PrivateVPN", "Proton VPN", "ProXPN", "PRQ VPN", "Psiphon", "PureVPN"],
+    "R": ["RA4W VPN"],
+    "S": ["SaferVPN", "Secure VPN", "Securitales", "Seed4.me VPN", "Smart DNS Proxy", "Snap VPN", "SonicWall Mobile Connect", "Speedify VPN", "StrongVPN", "Super VPN", "Surfshark"],
+    "T": ["Thunder VPN", "TorGuard", "TotalVPN", "Touch VPN", "TunnelBear", "Turbo VPN"],
+    "U": ["Ultra VPN", "Urban VPN"],
+    "V": ["VPN Master", "VPN Unlimited (KeepSolid)", "VPNArea", "VPNBook", "VPNHub", "VyprVPN"],
+    "W": ["Windscribe", "WireGuard"],
+    "X": ["X-VPN"],
+    "Z": ["ZenMate VPN", "ZoogVPN", "Zscaler Private Access"]
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "step": "02",
+  "timestamp": "2026-03-17T02:45:06.339681",
+  "operation": "Panopticon - VPN Corporate Ownership Intelligence",
+  "targets": {
+    "ProtonVPN": {
+      "corporate_entity": "Proton AG (formerly Proton Technologies AG)",
+      "jurisdiction": "Switzerland",
+      "hq": "Plan-les-Ouates, Geneva, Switzerland",
+      "ownership_chain": [
+        "Proton AG - Swiss Aktiengesellschaft (corporation)",
+        "Proton Foundation - Swiss non-profit (majority shareholder since June 2024)",
+        "Employee Stock Ownership - Employee ownership program"
+      ],
+      "ubos": [
+        {
+          "name": "Andy Yen",
+          "background": "Harvard PhD candidate, CERN researcher, Founded Proton 2014"
+        },
+        {
+          "name": "Jason Stockman",
+          "background": "CERN researcher"
+        },
+        {
+          "name": "Wei Sun",
+          "background": "CERN researcher"
+        }
+      ],
+      "cern_connection": "All 3 founders met at CERN. ProtonMail initially developed using CERN infrastructure in 2013-2014.",
+      "funding": "Series A: $100M (April 2022) - Lead: FTV Capital",
+      "transparency": "Open source apps, regular third-party audits (SEC Consult, Securitum), warrant canary active",
+      "coercion_events": [],
+      "intelligence_connections": {
+        "status": "No confirmed intel ties",
+        "notes": "CERN connection raises theoretical questions but no evidence of intelligence infiltration"
+      },
+      "five_eyes_status": "Switzerland NOT Five Eyes - strong privacy jurisdiction",
+      "risk_rating": "LOW",
+      "sources": [
+        "https://proton.me/blog/proton-foundation",
+        "https://proton.me/about",
+        "https://techcrunch.com/2022/04/06/proton-raises-100m/"
+      ]
+    },
+    "Mullvad VPN": {
+      "corporate_entity": "Amagicom AB",
+      "jurisdiction": "Sweden",
+      "hq": "Gothenburg, Sweden",
+      "ownership_chain": [
+        "Amagicom AB - Swedish privat aktiebolag (private limited company)"
+      ],
+      "ubos": [
+        {
+          "name": "Daniel Herdin",
+          "background": "Swedish developer, co-founder"
+        },
+        {
+          "name": "Fredrik Bjorn",
+          "background": "Swedish developer, co-founder"
+        }
+      ],
+      "founded": "2009",
+      "structure": "Private, founder-owned, no external investors",
+      "notable": "No email required, account numbers only, accepts cash payments by mail",
+      "transparency": "Open source apps, regular audits (Assured AB, Cure53, Radically Open Security)",
+      "coercion_events": [
+        {
+          "date": "2023-04-18",
+          "event": "Swedish Police Raid",
+          "details": "Police executed search warrant at Mullvad HQ. No customer data available - police left empty-handed.",
+          "outcome": "No data compromised"
+        },
+        {
+          "date": "2020",
+          "event": "Swedish Data Retention Challenge",
+          "details": "Mullvad fought Swedish data retention law, appealed to EU courts",
+          "outcome": "Ongoing legal challenge"
+        }
+      ],
+      "intelligence_connections": {
+        "status": "No confirmed intel ties",
+        "notes": "Swedish FRA surveillance law but Mullvad has proven coercion resistance"
+      },
+      "five_eyes_status": "Sweden NOT Five Eyes but IS Nine Eyes member (intelligence sharing with Five Eyes)",
+      "risk_rating": "LOW",
+      "sources": [
+        "https://mullvad.net/en/about",
+        "https://mullvad.net/blog/2023/4/20/mullvad-was-subject-to-a-search-warrant/"
+      ]
+    },
+    "Windscribe": {
+      "corporate_entity": "Windscribe Limited",
+      "jurisdiction": "Canada",
+      "hq": "Toronto, Ontario, Canada",
+      "ownership_chain": [
+        "Windscribe Limited - Canadian private corporation"
+      ],
+      "ubos": [
+        {
+          "name": "Yegor Sak",
+          "background": "Ukrainian-Canadian serial entrepreneur, CEO"
+        },
+        {
+          "name": "Alex Paguis",
+          "background": "Developer, co-founder"
+        }
+      ],
+      "founded": "2016",
+      "transparency": "Open source apps, some audits, transparency reports published",
+      "coercion_events": [
+        {
+          "date": "2021-06",
+          "event": "Ukraine Server Seizure",
+          "details": "Servers in Kyiv seized by Ukrainian authorities. Critical security flaw discovered - API keys stored in cleartext.",
+          "outcome": "Exposed all users of affected servers"
+        },
+        {
+          "date": "2021-08",
+          "event": "Transparency Report",
+          "details": "Received 3 government requests, no data provided due to technical impossibility",
+          "outcome": "No user data compromised"
+        }
+      ],
+      "major_security_incident": "2021 Ukraine seizure revealed insecure OpenVPN key management - all affected users potentially compromised",
+      "intelligence_connections": {
+        "status": "No confirmed intel ties",
+        "notes": "Canadian Five Eyes jurisdiction creates inherent intelligence sharing risk"
+      },
+      "five_eyes_status": "Canada IS Five Eyes founding member - full intelligence sharing with US, UK, Australia, NZ",
+      "risk_rating": "MEDIUM",
+      "sources": [
+        "https://windscribe.com/about",
+        "https://blog.windscribe.com/ukrainian-server-seizure-report-6ff2bd4973e7"
+      ]
+    },
+    "VyprVPN": {
+      "corporate_entity": "Golden Frog GmbH",
+      "jurisdiction": "Switzerland (incorporation), United States (operations)",
+      "hq": "Zug, Switzerland (legal), Austin, Texas USA (operations)",
+      "ownership_chain": [
+        "Golden Frog GmbH - Swiss GmbH",
+        "Golden Frog Inc. - Texas corporation",
+        "Founders: Ron and Carolyn Yokubaitis"
+      ],
+      "ubos": [
+        {
+          "name": "Ron Yokubaitis",
+          "background": "American entrepreneur, Texas-based"
+        },
+        {
+          "name": "Carolyn Yokubaitis",
+          "background": "Co-founder"
+        }
+      ],
+      "founded": "Golden Frog 1994, VyprVPN launched 2010",
+      "notable": "Owns all servers (no third-party hosting), proprietary Chameleon protocol",
+      "transparency": "No-logs audits (2018, 2020), SOC 2 Type II certified",
+      "coercion_events": [],
+      "intelligence_connections": {
+        "status": "POTENTIAL CONCERN",
+        "notes": "US operations create Five Eyes exposure despite Swiss incorporation. Founders are American with Texas operations base."
+      },
+      "five_eyes_status": "Switzerland NOT Five Eyes, but US operations create Five Eyes jurisdiction exposure",
+      "risk_rating": "MEDIUM",
+      "sources": [
+        "https://www.vyprvpn.com/about",
+        "https://www.goldenfrog.com/about"
+      ]
+    },
+    "Hola VPN": {
+      "corporate_entity": "Hola Networks Ltd (formerly Hola Better Internet)",
+      "jurisdiction": "Israel",
+      "hq": "Netanya, Israel",
+      "ownership_chain": [
+        "Hola Networks Ltd - Israeli private company"
+      ],
+      "ubos": [
+        {
+          "name": "Ofer Vilenski",
+          "background": "Israeli entrepreneur, co-founded Jungo (acquired by NDS/Cisco)"
+        },
+        {
+          "name": "Derry Shribman",
+          "background": "Co-founder, previously Jungo"
+        }
+      ],
+      "founded": "2007",
+      "notable": "P2P network - users share bandwidth with other users",
+      "major_controversies": [
+        {
+          "date": "2015-05",
+          "event": "Luminati/Bright Data Exposure",
+          "details": "Hola sold user bandwidth through Luminati proxy service. Users became exit nodes unknowingly.",
+          "outcome": "Class action lawsuit, widespread criticism"
+        },
+        {
+          "date": "2015",
+          "event": "Security Vulnerabilities",
+          "details": "Remote code execution vulnerabilities discovered",
+          "outcome": "Multiple CVEs issued"
+        },
+        {
+          "date": "2018",
+          "event": "8chan Hack",
+          "details": "Hack traced to Luminati/Hola exit nodes. User computers used for illegal activities.",
+          "outcome": "Proved botnet-like behavior"
+        }
+      ],
+      "coercion_events": [],
+      "intelligence_connections": {
+        "status": "HIGH CONCERN",
+        "notes": "Israeli jurisdiction. Founders sold Jungo to NDS (acquired by Cisco). NDS alleged ties to Israeli intelligence Unit 8200. Bright Data has documented contracts with US law enforcement."
+      },
+      "five_eyes_status": "Israel NOT Five Eyes but has extensive intelligence cooperation with Five Eyes nations",
+      "risk_rating": "CRITICAL",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hola",
+        "https://restoreprivacy.com/hola-vpn-review/"
+      ]
+    },
+    "Hotspot Shield (AnchorFree/Pango)": {
+      "corporate_entity": "Pango Inc. (formerly AnchorFree Inc.)",
+      "jurisdiction": "United States",
+      "hq": "Redwood City, California, USA",
+      "ownership_chain": [
+        "Pango Inc. - Delaware corporation",
+        "Acquired by Aura (2020) - NASDAQ: AURA"
+      ],
+      "ubos": [
+        {
+          "name": "David Gorodyansky",
+          "background": "Russian-American, co-founder, former CEO"
+        },
+        {
+          "name": "Eugene Malobrodsky",
+          "background": "Co-founder"
+        }
+      ],
+      "founded": "2005",
+      "portfolio": [
+        "Hotspot Shield",
+        "Betternet",
+        "Super VPN",
+        "1Click VPN",
+        "VPN Touch"
+      ],
+      "acquisition": {
+        "date": "2020-08",
+        "acquirer": "Aura",
+        "details": "Pango acquired by Aura for $140M"
+      },
+      "parent_company": "Aura (NASDAQ: AURA) - publicly traded, cybersecurity conglomerate",
+      "transparency": "Limited transparency, some audits",
+      "coercion_events": [],
+      "intelligence_connections": {
+        "status": "CONCERN",
+        "notes": "US jurisdiction. Ad-tech background. 2017 CDT complaint about data collection practices."
+      },
+      "five_eyes_status": "United States IS Five Eyes founding member - full intelligence sharing",
+      "risk_rating": "HIGH",
+      "sources": [
+        "https://www.aura.com/about",
+        "https://en.wikipedia.org/wiki/Hotspot_Shield"
+      ]
+    },
+    "TunnelBear": {
+      "corporate_entity": "TunnelBear Inc.",
+      "jurisdiction": "Canada",
+      "hq": "Toronto, Ontario, Canada",
+      "ownership_chain": [
+        "TunnelBear Inc. - Canadian corporation",
+        "Acquired by McAfee (2018)",
+        "McAfee LLC - American global computer security software company",
+        "Acquired by Advent International and TPG Capital (2021)",
+        "Now part of McAfee Corp - private equity owned"
+      ],
+      "ubos": [
+        {
+          "name": "Daniel Kaldor",
+          "background": "Co-founder, former journalist"
+        },
+        {
+          "name": "Ryan Dochuk",
+          "background": "Co-founder"
+        }
+      ],
+      "founded": "2011",
+      "acquisition": {
+        "date": "2018-03",
+        "acquirer": "McAfee",
+        "details": "Acquired for undisclosed sum, continues operating as standalone brand"
+      },
+      "parent_evolution": [
+        "2011-2018: Independent Canadian company",
+        "2018-2021: McAfee subsidiary",
+        "2021-present: McAfee (private equity owned by Advent International and TPG Capital)"
+      ],
+      "transparency": "Annual transparency reports, independent audits by Cure53",
+      "coercion_events": [],
+      "intelligence_connections": {
+        "status": "CONCERN",
+        "notes": "Canadian Five Eyes jurisdiction. McAfee is major US security company with likely government contracts. Private equity ownership adds opacity."
+      },
+      "five_eyes_status": "Canada IS Five Eyes founding member - full intelligence sharing",
+      "risk_rating": "MEDIUM",
+      "sources": [
+        "https://www.tunnelbear.com/about",
+        "https://www.mcafee.com/about"
+      ]
+    }
+  }
+}

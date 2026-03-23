@@ -1,0 +1,535 @@
+{
+  "operation": "PANOPTICON_VPN_DEANONYMIZATION",
+  "timestamp": "2026-03-17T04:10:00Z",
+  "schema_version": "1.0",
+  "nodes": {
+    "vpns": [
+      {
+        "id": "vpn_expressvpn",
+        "name": "ExpressVPN",
+        "jurisdiction": "British Virgin Islands",
+        "risk_level": "CRITICAL",
+        "founded": 2010
+      },
+      {
+        "id": "vpn_cyberghost",
+        "name": "CyberGhost",
+        "jurisdiction": "Romania",
+        "risk_level": "CRITICAL",
+        "founded": 2011
+      },
+      {
+        "id": "vpn_pia",
+        "name": "PIA",
+        "jurisdiction": "USA",
+        "risk_level": "CRITICAL",
+        "founded": 2010
+      },
+      {
+        "id": "vpn_zenmate",
+        "name": "ZenMate",
+        "jurisdiction": "Germany",
+        "risk_level": "CRITICAL",
+        "founded": 2013
+      },
+      {
+        "id": "vpn_nordvpn",
+        "name": "NordVPN",
+        "jurisdiction": "Panama",
+        "risk_level": "MEDIUM",
+        "founded": 2012
+      },
+      {
+        "id": "vpn_surfshark",
+        "name": "Surfshark",
+        "jurisdiction": "Netherlands",
+        "risk_level": "MEDIUM",
+        "founded": 2018
+      },
+      {
+        "id": "vpn_protonvpn",
+        "name": "ProtonVPN",
+        "jurisdiction": "Switzerland",
+        "risk_level": "LOW",
+        "founded": 2017
+      },
+      {
+        "id": "vpn_mullvad",
+        "name": "Mullvad",
+        "jurisdiction": "Sweden",
+        "risk_level": "LOW",
+        "founded": 2009
+      },
+      {
+        "id": "vpn_ipvanish",
+        "name": "IPVanish",
+        "jurisdiction": "USA",
+        "risk_level": "MEDIUM",
+        "founded": 2012
+      },
+      {
+        "id": "vpn_windscribe",
+        "name": "Windscribe",
+        "jurisdiction": "Canada",
+        "risk_level": "MEDIUM",
+        "founded": 2016
+      },
+      {
+        "id": "vpn_hola_vpn",
+        "name": "Hola VPN",
+        "jurisdiction": "Israel",
+        "risk_level": "CRITICAL",
+        "founded": 2008
+      },
+      {
+        "id": "vpn_hotspot_shield",
+        "name": "Hotspot Shield",
+        "jurisdiction": "USA",
+        "risk_level": "HIGH",
+        "founded": 2005
+      },
+      {
+        "id": "vpn_tunnelbear",
+        "name": "TunnelBear",
+        "jurisdiction": "Canada",
+        "risk_level": "MEDIUM",
+        "founded": 2011
+      },
+      {
+        "id": "vpn_vyprvpn",
+        "name": "VyprVPN",
+        "jurisdiction": "Switzerland",
+        "risk_level": "MEDIUM",
+        "founded": 2010
+      },
+      {
+        "id": "vpn_strongvpn",
+        "name": "StrongVPN",
+        "jurisdiction": "USA",
+        "risk_level": "MEDIUM",
+        "founded": 2005
+      },
+      {
+        "id": "vpn_safervpn",
+        "name": "SaferVPN",
+        "jurisdiction": "Israel",
+        "risk_level": "MEDIUM",
+        "founded": 2013
+      }
+    ],
+    "companies": [
+      {
+        "id": "company_kape_technologies",
+        "name": "Kape Technologies",
+        "type": "Holding",
+        "jurisdiction": "Israel/UK/Cyprus"
+      },
+      {
+        "id": "company_nordsec",
+        "name": "NordSec",
+        "type": "Holding",
+        "jurisdiction": "Lithuania/Netherlands"
+      },
+      {
+        "id": "company_ziff_davis",
+        "name": "Ziff Davis",
+        "type": "Public Company",
+        "jurisdiction": "USA"
+      },
+      {
+        "id": "company_proton_ag",
+        "name": "Proton AG",
+        "type": "Private",
+        "jurisdiction": "Switzerland"
+      },
+      {
+        "id": "company_amagicom_ab",
+        "name": "Amagicom AB",
+        "type": "Private",
+        "jurisdiction": "Sweden"
+      },
+      {
+        "id": "company_windscribe_limited",
+        "name": "Windscribe Limited",
+        "type": "Private",
+        "jurisdiction": "Canada"
+      },
+      {
+        "id": "company_hola_networks_ltd",
+        "name": "Hola Networks Ltd",
+        "type": "Private",
+        "jurisdiction": "Israel"
+      },
+      {
+        "id": "company_pango_aura",
+        "name": "Pango/Aura",
+        "type": "Public",
+        "jurisdiction": "USA"
+      },
+      {
+        "id": "company_mcafee",
+        "name": "McAfee",
+        "type": "Private (PE-owned)",
+        "jurisdiction": "USA"
+      },
+      {
+        "id": "company_golden_frog_gmbh",
+        "name": "Golden Frog GmbH",
+        "type": "Private",
+        "jurisdiction": "Switzerland/USA"
+      }
+    ],
+    "ubos": [
+      {
+        "id": "ubo_teddy_sagi",
+        "name": "Teddy Sagi",
+        "nationality": "Israeli",
+        "background": "Billionaire, gambling industry, fraud conviction 1996, Pandora Papers",
+        "risk_level": "CRITICAL"
+      },
+      {
+        "id": "ubo_tomas_okmanas",
+        "name": "Tomas Okmanas",
+        "nationality": "Lithuanian",
+        "background": "Tesonet co-founder, National Patron 2024",
+        "risk_level": "MEDIUM"
+      },
+      {
+        "id": "ubo_eimantas_sabaliauskas",
+        "name": "Eimantas Sabaliauskas",
+        "nationality": "Lithuanian",
+        "background": "Tesonet co-founder, National Patron 2024",
+        "risk_level": "MEDIUM"
+      },
+      {
+        "id": "ubo_andy_yen",
+        "name": "Andy Yen",
+        "nationality": "Taiwanese-American",
+        "background": "Harvard PhD, CERN researcher, privacy advocate",
+        "risk_level": "LOW"
+      },
+      {
+        "id": "ubo_daniel_herdin",
+        "name": "Daniel Herdin",
+        "nationality": "Swedish",
+        "background": "Mullvad co-founder, privacy advocate",
+        "risk_level": "LOW"
+      },
+      {
+        "id": "ubo_fredrik_bjorn",
+        "name": "Fredrik Bjorn",
+        "nationality": "Swedish",
+        "background": "Mullvad co-founder, privacy advocate",
+        "risk_level": "LOW"
+      },
+      {
+        "id": "ubo_ofer_vilenski",
+        "name": "Ofer Vilenski",
+        "nationality": "Israeli",
+        "background": "Hola VPN co-founder, Jungo Networks, Unit 8200 ecosystem",
+        "risk_level": "CRITICAL"
+      },
+      {
+        "id": "ubo_derry_shribman",
+        "name": "Derry Shribman",
+        "nationality": "Israeli",
+        "background": "Hola VPN co-founder",
+        "risk_level": "CRITICAL"
+      },
+      {
+        "id": "ubo_david_gorodyansky",
+        "name": "David Gorodyansky",
+        "nationality": "Israeli-American",
+        "background": "AnchorFree/Pango co-founder",
+        "risk_level": "HIGH"
+      }
+    ],
+    "agencies": [
+      {
+        "id": "agency_five_eyes",
+        "name": "Five Eyes",
+        "type": "Intelligence Alliance",
+        "members": "USA, UK, Canada, Australia, New Zealand"
+      },
+      {
+        "id": "agency_nine_eyes",
+        "name": "Nine Eyes",
+        "type": "Intelligence Alliance",
+        "members": "Five Eyes + Denmark, France, Netherlands, Norway"
+      },
+      {
+        "id": "agency_fourteen_eyes",
+        "name": "Fourteen Eyes",
+        "type": "Intelligence Alliance",
+        "members": "Nine Eyes + Germany, Belgium, Italy, Spain, Sweden"
+      },
+      {
+        "id": "agency_unit_8200",
+        "name": "Unit 8200",
+        "type": "Intelligence Agency",
+        "members": "Israel"
+      },
+      {
+        "id": "agency_nsa",
+        "name": "NSA",
+        "type": "Intelligence Agency",
+        "members": "USA"
+      },
+      {
+        "id": "agency_gchq",
+        "name": "GCHQ",
+        "type": "Intelligence Agency",
+        "members": "UK"
+      }
+    ],
+    "jurisdictions": [
+      {
+        "id": "jurisdiction_switzerland",
+        "name": "Switzerland",
+        "eyes_status": "None",
+        "opacity_score": "LOW",
+        "privacy_rating": "HIGH"
+      },
+      {
+        "id": "jurisdiction_panama",
+        "name": "Panama",
+        "eyes_status": "None",
+        "opacity_score": "HIGH",
+        "privacy_rating": "HIGH"
+      },
+      {
+        "id": "jurisdiction_british_virgin_islands",
+        "name": "British Virgin Islands",
+        "eyes_status": "None",
+        "opacity_score": "HIGH",
+        "privacy_rating": "MEDIUM"
+      },
+      {
+        "id": "jurisdiction_usa",
+        "name": "USA",
+        "eyes_status": "Five Eyes",
+        "opacity_score": "LOW",
+        "privacy_rating": "LOW"
+      },
+      {
+        "id": "jurisdiction_uk",
+        "name": "UK",
+        "eyes_status": "Five Eyes",
+        "opacity_score": "LOW",
+        "privacy_rating": "LOW"
+      },
+      {
+        "id": "jurisdiction_canada",
+        "name": "Canada",
+        "eyes_status": "Five Eyes",
+        "opacity_score": "LOW",
+        "privacy_rating": "LOW"
+      },
+      {
+        "id": "jurisdiction_israel",
+        "name": "Israel",
+        "eyes_status": "Non-member (cooperating)",
+        "opacity_score": "MEDIUM",
+        "privacy_rating": "LOW"
+      },
+      {
+        "id": "jurisdiction_lithuania",
+        "name": "Lithuania",
+        "eyes_status": "None",
+        "opacity_score": "LOW",
+        "privacy_rating": "MEDIUM"
+      },
+      {
+        "id": "jurisdiction_sweden",
+        "name": "Sweden",
+        "eyes_status": "Fourteen Eyes",
+        "opacity_score": "LOW",
+        "privacy_rating": "MEDIUM"
+      },
+      {
+        "id": "jurisdiction_cyprus",
+        "name": "Cyprus",
+        "eyes_status": "None",
+        "opacity_score": "HIGH",
+        "privacy_rating": "MEDIUM"
+      }
+    ]
+  },
+  "edges": {
+    "owns": [
+      {
+        "from": "company_kape_technologies",
+        "to": "vpn_expressvpn",
+        "share": "100%",
+        "type": "owns"
+      },
+      {
+        "from": "company_kape_technologies",
+        "to": "vpn_cyberghost",
+        "share": "100%",
+        "type": "owns"
+      },
+      {
+        "from": "company_kape_technologies",
+        "to": "vpn_pia",
+        "share": "100%",
+        "type": "owns"
+      },
+      {
+        "from": "company_kape_technologies",
+        "to": "vpn_zenmate",
+        "share": "100%",
+        "type": "owns"
+      },
+      {
+        "from": "company_nordsec",
+        "to": "vpn_nordvpn",
+        "share": "100%",
+        "type": "owns"
+      },
+      {
+        "from": "company_nordsec",
+        "to": "vpn_surfshark",
+        "share": "100%",
+        "type": "owns"
+      },
+      {
+        "from": "company_ziff_davis",
+        "to": "vpn_ipvanish",
+        "share": "100%",
+        "type": "owns"
+      },
+      {
+        "from": "company_ziff_davis",
+        "to": "vpn_strongvpn",
+        "share": "100%",
+        "type": "owns"
+      },
+      {
+        "from": "company_ziff_davis",
+        "to": "vpn_safervpn",
+        "share": "100%",
+        "type": "owns"
+      },
+      {
+        "from": "company_proton_ag",
+        "to": "vpn_protonvpn",
+        "share": "100%",
+        "type": "owns"
+      },
+      {
+        "from": "company_amagicom_ab",
+        "to": "vpn_mullvad",
+        "share": "100%",
+        "type": "owns"
+      },
+      {
+        "from": "company_windscribe_limited",
+        "to": "vpn_windscribe",
+        "share": "100%",
+        "type": "owns"
+      },
+      {
+        "from": "company_hola_networks_ltd",
+        "to": "vpn_hola_vpn",
+        "share": "100%",
+        "type": "owns"
+      },
+      {
+        "from": "company_pango_aura",
+        "to": "vpn_hotspot_shield",
+        "share": "100%",
+        "type": "owns"
+      },
+      {
+        "from": "company_mcafee",
+        "to": "vpn_tunnelbear",
+        "share": "100%",
+        "type": "owns"
+      },
+      {
+        "from": "company_golden_frog_gmbh",
+        "to": "vpn_vyprvpn",
+        "share": "100%",
+        "type": "owns"
+      }
+    ],
+    "controls": [
+      {
+        "from": "ubo_teddy_sagi",
+        "to": "company_kape_technologies",
+        "type": "controls"
+      },
+      {
+        "from": "ubo_tomas_okmanas",
+        "to": "company_nordsec",
+        "type": "controls"
+      },
+      {
+        "from": "ubo_eimantas_sabaliauskas",
+        "to": "company_nordsec",
+        "type": "controls"
+      },
+      {
+        "from": "ubo_andy_yen",
+        "to": "company_proton_ag",
+        "type": "controls"
+      },
+      {
+        "from": "ubo_daniel_herdin",
+        "to": "company_amagicom_ab",
+        "type": "controls"
+      },
+      {
+        "from": "ubo_fredrik_bjorn",
+        "to": "company_amagicom_ab",
+        "type": "controls"
+      },
+      {
+        "from": "ubo_ofer_vilenski",
+        "to": "company_hola_networks_ltd",
+        "type": "controls"
+      },
+      {
+        "from": "ubo_derry_shribman",
+        "to": "company_hola_networks_ltd",
+        "type": "controls"
+      }
+    ],
+    "incorporated_in": [],
+    "operates_in": [],
+    "affiliated_with": [
+      {
+        "from": "ubo_ofer_vilenski",
+        "to": "agency_unit_8200",
+        "evidence": "Jungo Networks -> NDS ecosystem"
+      },
+      {
+        "from": "jurisdiction_usa",
+        "to": "agency_five_eyes",
+        "evidence": "Member state"
+      },
+      {
+        "from": "jurisdiction_uk",
+        "to": "agency_five_eyes",
+        "evidence": "Member state"
+      },
+      {
+        "from": "jurisdiction_canada",
+        "to": "agency_five_eyes",
+        "evidence": "Member state"
+      },
+      {
+        "from": "jurisdiction_sweden",
+        "to": "agency_fourteen_eyes",
+        "evidence": "Member state"
+      },
+      {
+        "from": "jurisdiction_israel",
+        "to": "agency_unit_8200",
+        "evidence": "Host nation"
+      }
+    ],
+    "shares_infrastructure": []
+  }
+}

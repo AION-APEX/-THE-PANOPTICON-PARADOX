@@ -1,0 +1,301 @@
+{
+  "timestamp": "2026-03-17T02:03:46.287324",
+  "investigator": "osint_specialist",
+  "mission": "Operation Panopticon - VPN Corporate Unmasking (Vector Alpha)",
+  "phase": "Phase 1 Data Acquisition - Corporate Ownership Tracing",
+  "authority": "AlexH (APEX PRIME DIRECTIVE)",
+  "findings": {
+    "holding_companies": [
+      {
+        "name": "Kape Technologies",
+        "jurisdiction": "Israel/UK (formerly AIM-listed, now privately held)",
+        "stock_ticker": "None (Privately held, delisted from AIM London 2021)",
+        "subsidiaries": [
+          "ExpressVPN",
+          "CyberGhost VPN",
+          "Private Internet Access (PIA)",
+          "ZenMate VPN",
+          "Intego",
+          "Webselenese (VPN review publisher)"
+        ],
+        "parent_company": "Unik Holdings (acquired 2021)",
+        "ubo_chain": [
+          "Teddy Sagi (Israeli billionaire) - Ultimate Beneficial Owner",
+          "Unik Holdings (Sagi-controlled entity)",
+          "Kape Technologies (formerly Crossrider, renamed 2018)"
+        ],
+        "board_members": [
+          {
+            "name": "Teddy Sagi",
+            "background": "Israeli billionaire businessman, founder of Playtech, convicted of fraud and bribery in 1996 (served 5 months prison), obtained Cypriot citizenship via golden visa, listed in Pandora Papers"
+          },
+          {
+            "name": "Smueli Achdut",
+            "background": "Co-founder of original company (Crossrider)"
+          },
+          {
+            "name": "Koby Menachemi",
+            "background": "Co-founder of original company (Crossrider)"
+          }
+        ],
+        "intelligence_connections": [
+          "Teddy Sagi - Israeli national with significant business ties to gambling/payments sector",
+          "Playtech (Sagi-founded) - gambling software with potential regulatory/intelligence oversight",
+          "Sagi's 1996 fraud/bribery conviction raises concerns about ethical standards",
+          "Pandora Papers exposure indicates offshore tax structure complexity",
+          "Israeli citizenship combined with Cypriot golden visa indicates multi-jurisdictional footprint"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Kape_Technologies",
+          "https://en.wikipedia.org/wiki/Teddy_Sagi"
+        ]
+      },
+      {
+        "name": "NordSec / Nord Security",
+        "jurisdiction": "Amsterdam, Netherlands (parent), Panama (operations)",
+        "stock_ticker": "None (Private, funded by venture capital)",
+        "subsidiaries": [
+          "NordVPN",
+          "Surfshark (merged 2022)"
+        ],
+        "parent_company": "Nord Security (merged with Surfshark 2022 under common holding)",
+        "ubo_chain": [
+          "Tomas Okmanas (Co-founder, CEO of Nord Security - awarded CEO of Year 2020)",
+          "Eimantas Sabaliauskas (Co-founder of Tesonet)",
+          "Novator Partners (led $100M funding round April 2022)",
+          "Tesonet (Lithuanian venture builder - founded 2008)",
+          "Nord Security shareholders (valuation $1.6B post-funding, Lithuania's 2nd unicorn)"
+        ],
+        "board_members": [
+          {
+            "name": "Tomas Okmanas",
+            "background": "Co-founder of Tesonet (2008) and Nord Security (2012), CEO of Nord Security, awarded National Patron by Lithuanian Government 2024, CEO of Year 2020"
+          },
+          {
+            "name": "Eimantas Sabaliauskas",
+            "background": "Co-founder of Tesonet (2008), awarded National Patron by Lithuanian Government 2024, met Okmanas on IRC in 1999"
+          },
+          {
+            "name": "Birgir Ragnarson",
+            "background": "Partner at Novator Partners (investment firm that led $100M funding round)"
+          },
+          {
+            "name": "Jonas Karklys",
+            "background": "Tesonet representative, joined BC Zalgiris management board after Tesonet stake acquisition"
+          }
+        ],
+        "intelligence_connections": [
+          "Tesonet - Largest investor in Cyber City, Vilnius tech hub (potential Baltic intelligence awareness)",
+          "Founders awarded 'National Patrons' by Lithuanian Government 2024 - state recognition",
+          "Panama jurisdiction for NordVPN operations raises transparency concerns",
+          "Nord Security + Surfshark merger creates VPN duopoly controlling 2 major brands",
+          "Oxylabs (Tesonet portfolio) - proxy service with potential intelligence applications",
+          "Hostinger (Tesonet portfolio) - web hosting with global user data access",
+          "3,500+ employees across Tesonet group indicates significant scale",
+          "Novator Partners investment firm requires further UBO investigation"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/NordVPN",
+          "https://en.wikipedia.org/wiki/Surfshark",
+          "https://en.wikipedia.org/wiki/Novator_Partners",
+          "https://en.wikipedia.org/wiki/Tesonet"
+        ],
+        "tesonet_portfolio": [
+          "Nord Security (NordVPN, NordPass, NordLocker)",
+          "Surfshark (merged 2022)",
+          "Oxylabs (proxy/data extraction)",
+          "Hostinger (web hosting)",
+          "CyberCare (customer service)",
+          "nexos.ai",
+          "Decodo",
+          "Mediatech",
+          "Eneba (gaming marketplace)",
+          "Cast AI",
+          "Turing College",
+          "FPRO (2M euro investment 2025)",
+          "MISHKAY Biotech",
+          "BC Zalgiris (25% stake acquired 2022)",
+          "BC London Lions (acquired 2024)",
+          "Artea (formerly Siauliu Bankas)"
+        ],
+        "founders": [
+          {
+            "name": "Tomas Okmanas",
+            "role": "Co-founder Tesonet (2008), CEO Nord Security"
+          },
+          {
+            "name": "Eimantas Sabaliauskas",
+            "role": "Co-founder Tesonet (2008)"
+          }
+        ]
+      },
+      {
+        "name": "J2 Global / Ziff Davis",
+        "jurisdiction": "USA (Delaware), NASDAQ-listed",
+        "stock_ticker": "ZD (NASDAQ)",
+        "subsidiaries": [
+          "IPVanish",
+          "StrongVPN",
+          "SaferVPN",
+          "Encrypt.me",
+          "NetProtect",
+          "VIPRE Security Group"
+        ],
+        "parent_company": "None (Publicly traded)",
+        "ubo_chain": [
+          "Public shareholders via NASDAQ",
+          "Historical: Great Hill Partners (backed Vivek R. Shah acquisition 2010)",
+          "Historical: Forstmann Little & Company (owned 1994)",
+          "J2 Global acquired Ziff Davis 2012, rebranded as Ziff Davis 2021"
+        ],
+        "board_members": [
+          {
+            "name": "Vivek R. Shah",
+            "background": "CEO, acquired company 2010 with Great Hill Partners backing"
+          },
+          {
+            "name": "William B. Ziff Jr.",
+            "background": "Historical sole owner before 1994 sale"
+          }
+        ],
+        "intelligence_connections": [
+          "Public company with institutional shareholders requires further SEC filing analysis",
+          "Multiple private equity transitions (Great Hill Partners, Forstmann Little)",
+          "Corporate restructuring from J2 Global to Ziff Davis in 2021",
+          "Consensus spin-off (cloud fax business) separates operations"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Ziff_Davis",
+          "https://en.wikipedia.org/wiki/IPVanish"
+        ]
+      },
+      {
+        "name": "Pango (formerly AnchorFree Inc.)",
+        "jurisdiction": "USA (Delaware - Redwood City, California)",
+        "stock_ticker": "None (Private)",
+        "subsidiaries": [
+          "Hotspot Shield",
+          "Betternet",
+          "Super VPN"
+        ],
+        "parent_company": "Unknown - requires further investigation",
+        "ubo_chain": [
+          "Requires further investigation - no public UBO information found",
+          "AnchorFree Inc. renamed to Pango"
+        ],
+        "board_members": [
+          {
+            "name": "Unknown",
+            "background": "No founders or executives identified in public sources"
+          }
+        ],
+        "intelligence_connections": [
+          "Redwood City, California headquarters (Silicon Valley)",
+          "Offices in Boston and Ukraine indicate multi-national operations",
+          "Ukraine office presence may indicate Eastern European intelligence considerations",
+          "Limited transparency on ownership structure"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Hotspot_Shield"
+        ]
+      },
+      {
+        "name": "Plug and Play Tech Center",
+        "jurisdiction": "USA (California)",
+        "stock_ticker": "None (Private - Venture Capital/Accelerator)",
+        "subsidiaries": [
+          "Multiple VPN investments - requires further investigation"
+        ],
+        "parent_company": "Unknown - requires further investigation",
+        "ubo_chain": [
+          "Requires investigation for VPN-specific investments"
+        ],
+        "board_members": [
+          {
+            "name": "Unknown",
+            "background": "Requires investigation"
+          }
+        ],
+        "intelligence_connections": [
+          "Venture capital/accelerator model may have multiple limited partners",
+          "Potential connections to multiple VPN startups",
+          "Requires portfolio analysis for VPN investments"
+        ],
+        "sources": []
+      }
+    ],
+    "cross_correlations": {
+      "consolidation_trends": [
+        "Kape Technologies acquired ExpressVPN, CyberGhost, PIA, ZenMate - major consolidation",
+        "Nord Security and Surfshark merged in 2022 - creating NordVPN/Surfshark duopoly",
+        "J2 Global/Ziff Davis acquired multiple VPN brands (IPVanish, StrongVPN, SaferVPN)",
+        "VPN market showing significant consolidation under few holding companies"
+      ],
+      "intelligence_concerns": [
+        "Teddy Sagi (Kape) - Israeli billionaire with fraud conviction, Pandora Papers exposure",
+        "Panama/Netherlands jurisdiction mixing for Nord Security",
+        "Limited transparency on Novator Partners ultimate ownership",
+        "Ukraine office presence for Pango/AnchorFree",
+        "Golden visa/Citizenship by investment patterns among owners",
+        "Tesonet founders awarded 'National Patrons' status by Lithuanian government - state-level recognition",
+        "Tesonet controls major tech infrastructure: Oxylabs (proxies), Hostinger (hosting), NordVPN/Surfshark (VPNs)",
+        "Combined Tesonet portfolio represents significant data collection capability across multiple channels"
+      ],
+      "data_aggregation_risks": [
+        "Webselenese acquisition by Kape means VPN review sites owned by VPN provider",
+        "Consolidated VPN providers can correlate user data across brands",
+        "Single owners controlling multiple VPN brands creates privacy concentration"
+      ],
+      "tesonet_infrastructure_analysis": {
+        "data_collection_vectors": [
+          "NordVPN/Surfshark - VPN traffic routing",
+          "Oxylabs - Proxy services and web scraping",
+          "Hostinger - Web hosting and domain data",
+          "CyberCare - Customer service data access"
+        ],
+        "geographic_footprint": [
+          "Lithuania (HQ - Cyber City Vilnius)",
+          "Panama (NordVPN operations)",
+          "Netherlands (Nord Security incorporation)",
+          "UK (offices)"
+        ],
+        "scale": "3,500+ employees, $1.6B valuation, Lithuania's 2nd unicorn"
+      }
+    }
+  },
+  "data_sources_used": [
+    "Wikipedia - Kape Technologies",
+    "Wikipedia - Teddy Sagi",
+    "Wikipedia - NordVPN",
+    "Wikipedia - Surfshark",
+    "Wikipedia - IPVanish",
+    "Wikipedia - Ziff Davis",
+    "Wikipedia - Hotspot Shield",
+    "Wikipedia - Novator Partners",
+    "https://en.wikipedia.org/wiki/Tesonet"
+  ],
+  "investigation_gaps": [
+    "Novator Partners ultimate beneficial owners - requires SEC/private equity investigation",
+    "Pango/AnchorFree investors and UBOs - requires further research",
+    "Plug and Play Tech Center VPN investments - requires portfolio analysis",
+    "Current Ziff Davis institutional shareholders - requires SEC 13F analysis",
+    "Tesonet founders and ownership structure - requires Lithuanian corporate registry search",
+    "Intelligence agency connections - requires deeper investigation"
+  ],
+  "next_phase_recommendations": [
+    "SEC EDGAR filing analysis for Ziff Davis institutional ownership",
+    "UK Companies House registry search for Kape Technologies historical records",
+    "Lithuanian corporate registry for Tesonet ownership",
+    "Private equity database search for Novator Partners LPs",
+    "Cross-reference executives with defense contractor/intelligence backgrounds",
+    "Investigate Webselenese (VPN review sites) for editorial independence concerns"
+  ],
+  "investigation_status": {
+    "tesonet_ownership": "RESOLVED - Founded by Tomas Okmanas and Eimantas Sabaliauskas",
+    "nordsec_ownership": "RESOLVED - Owned by Tesonet founders with Novator Partners funding",
+    "kape_technologies_ownership": "RESOLVED - Owned by Teddy Sagi via Unik Holdings",
+    "ziff_davis_ownership": "PARTIAL - Public company, need SEC 13F for institutional holders",
+    "pango_ownership": "OPEN - No public UBO information found",
+    "novator_partners_ownership": "OPEN - Need to identify LPs and ultimate partners"
+  }
+}
